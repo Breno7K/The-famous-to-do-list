@@ -17,7 +17,7 @@ export default {
 .progress-wrapper{
     margin: 0 auto 0 auto;
     background: lightslategray;
-    width: 200px;
+    width: 17vw;;
     height: 30px;
 }
 .progress-wrapper h3{
@@ -25,7 +25,7 @@ export default {
     
 }
 .progress{
-    background: lightgreen;
+    background: #06d6a0;
     height: 100%;
 
     text-align: center;

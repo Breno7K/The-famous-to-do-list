@@ -28,7 +28,7 @@ export default {
   flex-wrap: wrap;
   column-gap: 1.4vw;
   max-width: 650px;
-  background: lightgrey;
+  background: #ffd166;
   padding: 30px;
   border-radius: 50px;
 

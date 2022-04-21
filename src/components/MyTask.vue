@@ -26,11 +26,12 @@ export default {
   overflow-wrap: break-word;
   word-break: normal;
   border-radius: 10%;
-  background: lightsalmon;
+  background: #ef476f;
+  font-size: 24px;
 }
 
 .done {
-  background: lightgreen;
+  background: #06d6a0;
 }
 
 .task-background p {
@@ -39,9 +40,7 @@ export default {
   margin: 20% auto 0 auto;
 }
 .close-task {
-  background: rgb(232, 51, 51);
   width: 18px;
-  line-height:50%;
   height: 18px;
   border-radius: 50%;
   cursor: context-menu;

@@ -1,9 +1,11 @@
 <template>
   <div>
-    <h1>AaAaaaaaAAAAAAAA</h1>
-     <div class="gerator">
-      <input type="text"  v-model="taskText" @keydown.enter="addTask">
-      <button @click="addTask">+</button>
+    <h1>The famous to-do list</h1>
+     <div class="generator">
+      <input class="input-task-text" type="text"  v-model="taskText" @keydown.enter="addTask">
+      <button @click="addTask" class="add-task-button">
+        <img style="height: 30px" src=".\assets\add_task_FILL0_wght400_GRAD0_opsz48.png" alt="Add taks button">
+      </button>
   </div>
 
     <ProgressBar :progress="progress" />
@@ -70,9 +72,28 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
 #app {
+  font-family: 'Varela Round', sans-serif;
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+h1{
+  font-size: 50px;
+  color: #212529;
+}
+.generator{
+  display: flex;
+  justify-content: center;
+
+}
+.input-task-text{
+  border: none;
+  width: 14vw;
+}
+.add-task-button{
+  border: none;
 }
 </style>
