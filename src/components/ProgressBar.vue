@@ -15,10 +15,10 @@ export default {
 
 <style scoped>
 .progress-wrapper{
-    margin: 0 auto 0 auto;
+    margin: 3vh auto 0 auto;
     background: lightslategray;
-    width: 17vw;;
-    height: 30px;
+    width: 270px;;
+    height: 32px;
 }
 .progress-wrapper h3{
     margin: 0%;

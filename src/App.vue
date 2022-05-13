@@ -91,9 +91,10 @@ h1{
 }
 .input-task-text{
   border: none;
-  width: 14vw;
+  width: 230px;
 }
 .add-task-button{
+  background: #7fc2b0;
   border: none;
 }
 </style>

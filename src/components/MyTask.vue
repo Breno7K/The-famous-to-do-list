@@ -22,12 +22,14 @@ export default {
 <style scoped>
 .task-background {
   width: 200px;
-  height: 150px;
+  min-height: 150px;
   overflow-wrap: break-word;
   word-break: normal;
   border-radius: 10%;
   background: #ef476f;
   font-size: 24px;
+  /* border: 34px;
+  border-color: #073b4c; */
 }
 
 .done {

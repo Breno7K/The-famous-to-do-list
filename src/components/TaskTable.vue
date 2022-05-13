@@ -26,6 +26,7 @@ export default {
 .table {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   column-gap: 1.4vw;
   max-width: 650px;
   background: #ffd166;
